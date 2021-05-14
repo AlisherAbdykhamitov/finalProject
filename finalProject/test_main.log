@@ -1,0 +1,39 @@
+INFO -- 2021-05-15 01:54:46,069: Category object updated, ID: firstCategory
+INFO -- 2021-05-15 01:55:03,706: BookProduct object created, ID: thirdBook
+INFO -- 2021-05-15 01:55:58,082: BookProduct object created, ID: fourthBook
+INFO -- 2021-05-15 01:56:45,594: BookProduct object deleted, ID: firstBook
+INFO -- 2021-05-15 01:57:17,941: BookProduct object deleted, ID: secondBook
+INFO -- 2021-05-15 01:57:33,697: BookProduct object deleted, ID: thirdBook
+INFO -- 2021-05-15 02:03:53,835: BookProduct object created, ID: alisher
+INFO -- 2021-05-15 02:04:22,761: BookProduct object created, ID: alisher
+INFO -- 2021-05-15 02:05:21,168: BookProduct object deleted, ID: alisher
+INFO -- 2021-05-15 02:05:26,858: BookProduct object deleted, ID: alisher
+INFO -- 2021-05-15 02:08:26,748: BookProduct object created, ID: fourthBook
+INFO -- 2021-05-15 02:10:24,420: Category object created, ID: thirdCategory
+INFO -- 2021-05-15 02:12:33,816: Category object created, ID: fourthCategory
+ERROR -- 2021-05-15 02:19:06,610: Card object is not created, ID: {'customer': [ErrorDetail(string='This field is required.', code='required')]}
+ERROR -- 2021-05-15 02:19:30,313: Card object is not created, ID: {'customer': [ErrorDetail(string='Incorrect type. Expected pk value, received str.', code='incorrect_type')]}
+ERROR -- 2021-05-15 02:19:53,879: Card object is not created, ID: {'customer': [ErrorDetail(string='Incorrect type. Expected pk value, received str.', code='incorrect_type')]}
+INFO -- 2021-05-15 02:20:02,082: Card object created, ID: 123456789
+ERROR -- 2021-05-15 02:20:54,024: Card object is not created, ID: {'customer': [ErrorDetail(string='This field must be unique.', code='unique')]}
+ERROR -- 2021-05-15 02:23:55,918: Card object cannot be updated, {'customer': [ErrorDetail(string='This field is required.', code='required')]}
+INFO -- 2021-05-15 02:27:03,374: Card object deleted
+INFO -- 2021-05-15 02:27:43,749: Card object created, ID: 123456789
+INFO -- 2021-05-15 02:27:57,690: Card object deleted
+ERROR -- 2021-05-15 02:33:03,195: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='This field is required.', code='required')]}
+ERROR -- 2021-05-15 02:33:36,245: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:34:08,070: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:34:20,978: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:34:42,668: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:36:02,206: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:36:08,532: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:36:28,565: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:48:23,206: ShoppingCart object cannot be created, {'customer': [ErrorDetail(string='Incorrect type. Expected pk value, received str.', code='incorrect_type')], 'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:49:03,779: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:49:15,231: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:49:24,301: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:50:29,309: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:50:33,925: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:50:39,011: ShoppingCart object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+ERROR -- 2021-05-15 02:53:18,610: Order object cannot be created, {'cart_product': [ErrorDetail(string='Expected a list of items but got type "str".', code='not_a_list')]}
+INFO -- 2021-05-15 02:55:19,506: Order object created, ID: Order object (2)
